@@ -16,6 +16,15 @@
 
 双击打开 `index.html`，点选分类中的中文标签，右上角自动拼好英文提示词，一键复制正面 / 负面。
 
+## 在线使用（GitHub Pages 托管）
+
+本工具已通过 GitHub Pages 托管，无需下载即可在线使用：
+
+**https://bfrkqsb7.github.io/ai-prompt-supermarket/**
+
+- 在线版与本地版完全一致（同一份 `index.html`）
+- 本地版仍可下载离线使用（数据全内联，双击即开）
+
 ## 适配模型
 
 Stable Diffusion 系标签型模型：**NoobAI-XL / Illustrious / Manhwa Style / Pony Diffusion** 等（Danbooru 标签体系）。
