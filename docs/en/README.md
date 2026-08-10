@@ -1,4 +1,4 @@
-# AI Drawing Prompt Supermarket v2.3.0
+# AI Drawing Prompt Supermarket v2.4.0
 
 [**中文简体**](../../README.md) | **English**
 
@@ -16,6 +16,7 @@ A local, offline AI drawing prompt generator: **click Chinese tags to auto-gener
 - **Negative prompts**: built-in negative categories, auto-routed to the negative box
 - Underscores auto-convert to spaces on output (`long_hair` → `long hair`), ready to paste into workflows
 - **Drag to reorder**: drag the Chinese chips below the prompt bar to change prompt order
+- **Prompt backfill recognition**: paste or type an existing prompt into the positive/negative boxes to auto-convert into chips (matched tags show Chinese; unmatched keep the original text with a `?` marker)
 
 ## Usage
 
@@ -29,13 +30,16 @@ Hosted on GitHub Pages, use it online without downloading:
 
 - The online version is identical to the local one (same `index.html`)
 - The local version still works offline (all data inlined, double-click to open)
-- `index_old.html` is the previous version backup; it doesn't affect usage
 
 ## Compatible models
 
 SD tag-based models: **NoobAI-XL / Illustrious / Manhwa Style / Pony Diffusion**, etc. (Danbooru tag system).
 
 ## Changelog
+
+### v2.4.0
+- **Added**: prompt backfill recognition — paste or type an existing prompt into the positive/negative boxes to auto-convert into chips (matched tags show Chinese; unmatched keep the original text with a `?` marker)
+- **Removed**: dropped the `index_old.html` old-version backup (git history serves as the backup; no longer shipped with the repo)
 
 ### v2.3.0
 - **Added**: drag the Chinese chips below the prompt bar to reorder prompts
