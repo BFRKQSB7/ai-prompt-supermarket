@@ -1,4 +1,4 @@
-# AI Drawing Prompt Supermarket v2.2.0
+# AI Drawing Prompt Supermarket v2.3.0
 
 [**中文简体**](../../README.md) | **English**
 
@@ -15,6 +15,7 @@ A local, offline AI drawing prompt generator: **click Chinese tags to auto-gener
 - **Browse all**: view the 1000 most-used tags in one click
 - **Negative prompts**: built-in negative categories, auto-routed to the negative box
 - Underscores auto-convert to spaces on output (`long_hair` → `long hair`), ready to paste into workflows
+- **Drag to reorder**: drag the Chinese chips below the prompt bar to change prompt order
 
 ## Usage
 
@@ -35,6 +36,10 @@ Hosted on GitHub Pages, use it online without downloading:
 SD tag-based models: **NoobAI-XL / Illustrious / Manhwa Style / Pony Diffusion**, etc. (Danbooru tag system).
 
 ## Changelog
+
+### v2.3.0
+- **Added**: drag the Chinese chips below the prompt bar to reorder prompts
+- **Version**: page title changed to "AI Drawing Prompt Supermarket v2.3.0"
 
 ### v2.2.0
 - **Added**: favorite/unfavorite tags directly from search results with ☆
