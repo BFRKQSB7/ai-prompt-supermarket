@@ -28,6 +28,8 @@ Hosted on GitHub Pages, use it online without downloading:
 
 **https://bfrkqsb7.github.io/ai-prompt-supermarket/**
 
+> ⚠️ The file is large (~14MB); the first load may take several seconds. Please be patient.
+
 - The online version is identical to the local one (same `index.html`)
 - The local version still works offline (all data inlined, double-click to open)
 

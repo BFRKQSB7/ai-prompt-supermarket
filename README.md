@@ -28,6 +28,8 @@
 
 **https://bfrkqsb7.github.io/ai-prompt-supermarket/**
 
+> ⚠️ 文件较大（约 14MB），首次加载可能需要几秒到十几秒，请耐心等待。
+
 - 在线版与本地版完全一致（同一份 `index.html`）
 - 本地版仍可下载离线使用（数据全内联，双击即开）
 
