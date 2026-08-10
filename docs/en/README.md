@@ -1,4 +1,4 @@
-# AI Drawing Prompt Supermarket v2.1.0
+# AI Drawing Prompt Supermarket v2.2.0
 
 [**中文简体**](../../README.md) | **English**
 
@@ -9,7 +9,7 @@ A local, offline AI drawing prompt generator: **click Chinese tags to auto-gener
 - **Full tag library**: 320K+ Danbooru Chinese–English tag pairs (characters / artists / copyrights / works), daily-updated data source
 - **Categories + subcategories**: hair color / hairstyle / eyes / expression / body / clothing / pose / scene / style / NSFW, with deep subcategories (e.g. clothing → tops / dresses / underwear / shoes & accessories)
 - **Global search**: search by Chinese, English, underscores, or spaces across the full library
-- **Favorites**: ★ favorite common tags, filter by "favorites only", persisted across sessions
+- **Favorites**: ★ favorite common tags, filter by "favorites only", persisted across sessions; **favorite directly from search results with ☆**
 - **Import / Export favorites**: export favorites to a JSON file for backup, or import & merge from a JSON file; export is alphabetically sorted for clean diffs
 - **Auto-save**: when enabled, favorites auto-write to a chosen JSON file on every change (built-in memory is kept; the file is a parallel backup). Requires Chrome/Edge — pick the location once on first enable, right-click the button to re-pick anytime
 - **Browse all**: view the 1000 most-used tags in one click
@@ -35,6 +35,9 @@ Hosted on GitHub Pages, use it online without downloading:
 SD tag-based models: **NoobAI-XL / Illustrious / Manhwa Style / Pony Diffusion**, etc. (Danbooru tag system).
 
 ## Changelog
+
+### v2.2.0
+- **Added**: favorite/unfavorite tags directly from search results with ☆
 
 ### v2.1.0
 - **Added**: Import favorites from a JSON file (merge)
