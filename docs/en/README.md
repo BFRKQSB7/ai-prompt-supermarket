@@ -40,6 +40,7 @@ SD tag-based models: **NoobAI-XL / Illustrious / Manhwa Style / Pony Diffusion**
 - **Added**: Import favorites from a JSON file (merge)
 - **Added**: Export favorites to a JSON file (alphabetically sorted)
 - **Added**: Auto-save favorites to a chosen JSON file on change (requires Chrome/Edge; re-pick location anytime)
+- **Fixed**: Missing Chinese labels for some favorited tags (tags only in curated categories but not in the full library showed English)
 - **Version**: previous version backed up as `index_old.html`
 
 ## Notes
