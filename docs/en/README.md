@@ -1,4 +1,4 @@
-# AI Drawing Prompt Supermarket v2.7.0
+# AI Drawing Prompt Supermarket v2.8.1
 
 [**中文简体**](../../README.md) | **English**
 
@@ -37,7 +37,19 @@ Hosted on GitHub Pages, use it online without downloading:
 
 SD tag-based models: **NoobAI-XL / Illustrious / Manhwa Style / Pony Diffusion**, etc. (Danbooru tag system).
 
+## Related tool
+
+Realistic natural-language models (RealVis / Juggernaut)? Use the **Realistic Prompt Generator** (slot-based natural-language assembly):
+
+👉 [realistic-prompt-generator](https://github.com/BFRKQSB7/realistic-prompt-generator) · [online](https://bfrkqsb7.github.io/realistic-prompt-generator/)
+
+**When to go there**: your model is natural-language (RealVis / Juggernaut); this supermarket serves tag-based types (NoobAI / Manhwa).
+
 ## Changelog
+
+### v2.8.1
+- **Added**: light/dark theme toggle (🌓 button in the toolbar, dark by default)
+- **Optimized**: README adds a "Related tool" link (to the Realistic Prompt Generator)
 
 ### v2.8.0
 - **Added**: preset feature — saves one set (positive + negative). "Save preset" stores the current pos/neg prompts, "Load preset" restores and auto-rebuilds chips, "Clear preset" removes it; stored with favorites in the same `dtag_fav.json` (new format `{fav:[...], preset:{pos,neg}}`, backward-compatible import of the old array format)

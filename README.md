@@ -1,4 +1,4 @@
-# AI 绘画提示词超市 v2.7.0
+# AI 绘画提示词超市 v2.8.1
 
 **中文简体** | [**English**](./docs/en/README.md)
 
@@ -37,7 +37,19 @@
 
 Stable Diffusion 系标签型模型：**NoobAI-XL / Illustrious / Manhwa Style / Pony Diffusion** 等（Danbooru 标签体系）。
 
+## 相关工具
+
+自然语言型写实模型（RealVis / Juggernaut）用 **写实提示词生成器**（槽位式自然语言拼装）：
+
+👉 [写实提示词生成器 — realistic-prompt-generator](https://github.com/BFRKQSB7/realistic-prompt-generator) · [在线版](https://bfrkqsb7.github.io/realistic-prompt-generator/)
+
+**什么时候该去**：你的模型是 RealVis / Juggernaut 这类自然语言型 → 去生成器；本超市服务 NoobAI / Manhwa 这类标签型。
+
 ## 变更日志
+
+### v2.8.1
+- **新增**：深浅色切换（工具栏 🌓 按钮，默认深色）
+- **优化**：README 增加「相关工具」跳转链接（去写实提示词生成器）
 
 ### v2.8.0
 - **新增**：预设功能 —— 只存一套（正面 + 负面），点「存预设」保存当前正负提示词，「载预设」恢复并自动重建胶囊，「清预设」清除；与收藏同存 `dtag_fav.json`（新格式 `{fav:[...], preset:{pos,neg}}`，兼容旧数组格式导入）
