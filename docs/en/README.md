@@ -1,4 +1,4 @@
-# AI Drawing Prompt Supermarket v2.6.0
+# AI Drawing Prompt Supermarket v2.7.0
 
 [**中文简体**](../../README.md) | **English**
 
@@ -38,6 +38,12 @@ Hosted on GitHub Pages, use it online without downloading:
 SD tag-based models: **NoobAI-XL / Illustrious / Manhwa Style / Pony Diffusion**, etc. (Danbooru tag system).
 
 ## Changelog
+
+### v2.7.0
+- **Added**: NoobAI official tags filled in — new "Era / Date" category (old / early / mid / recent / newest date tags); "Quality" category gains `newest`, `safe`, `detailed face`, `detailed background`
+- **Added**: ~44 common tags added across curated categories (character count / hairstyle / eyes / expression / body / clothing / pose / scene / style / negative); 6 new words added to the full library (chubby / bunny suit / hand on chin / fingers crossed / noise / grainy)
+- **Fixed**: clicking a prompt chip's body no longer toggles positive/negative (only the `±` button toggles; left-click is for drag-reorder only)
+- **Optimized**: added a structure navigation + maintenance guide comment at the top of the file, marking the huge full-library line so AIs can read/maintain it safely
 
 ### v2.6.0
 - **Added**: prompt weight recognition — pasting `(tag:weight)` auto-recognizes the tag and shows a weight badge; group weights `(a, b:1.5)` apply to every tag in the group; weight 1 is not shown (equivalent to no weight)

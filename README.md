@@ -1,4 +1,4 @@
-# AI 绘画提示词超市 v2.6.0
+# AI 绘画提示词超市 v2.7.0
 
 **中文简体** | [**English**](./docs/en/README.md)
 
@@ -38,6 +38,12 @@
 Stable Diffusion 系标签型模型：**NoobAI-XL / Illustrious / Manhwa Style / Pony Diffusion** 等（Danbooru 标签体系）。
 
 ## 变更日志
+
+### v2.7.0
+- **新增**：NoobAI 官方标签补齐 —— 新增「年代/日期」分类（old / early / mid / recent / newest 日期标签）；「质量词」补 `newest` `safe` `detailed face` `detailed background`
+- **新增**：常用分类扩充约 44 个标签（角色数量 / 发型 / 眼睛 / 表情 / 身材 / 服装 / 姿势 / 场景 / 画风 / 负面词），全量库新增 6 个词（chubby / bunny suit / hand on chin / fingers crossed / noise / grainy）
+- **修复**：提示词胶囊点击本体不再切换正负（只 `±` 按钮切换，左键仅用于拖拽排序）
+- **优化**：文件顶部新增结构导航 + 维护手册注释，标明全量库巨行位置，便于 AI 读取与维护
 
 ### v2.6.0
 - **新增**：提示词权重识别 —— 粘贴 `(标签:权重)` 自动识别标签并显示权重徽章；组权重 `(a, b:1.5)` 给组内每个标签加权；权重 1 不显示（等同无权重）
