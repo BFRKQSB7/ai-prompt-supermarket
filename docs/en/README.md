@@ -1,4 +1,4 @@
-# AI Drawing Prompt Supermarket v2.5.0
+# AI Drawing Prompt Supermarket v2.6.0
 
 [**中文简体**](../../README.md) | **English**
 
@@ -38,6 +38,11 @@ Hosted on GitHub Pages, use it online without downloading:
 SD tag-based models: **NoobAI-XL / Illustrious / Manhwa Style / Pony Diffusion**, etc. (Danbooru tag system).
 
 ## Changelog
+
+### v2.6.0
+- **Added**: prompt weight recognition — pasting `(tag:weight)` auto-recognizes the tag and shows a weight badge; group weights `(a, b:1.5)` apply to every tag in the group; weight 1 is not shown (equivalent to no weight)
+- **Added**: right-click a chip to adjust weight — popup with manual input (arabic numerals only, default 1) + `±0.1` step buttons + a reset button (reset to 1)
+- Unmatched weighted tags are kept verbatim (e.g., `(weird thing:1.3)` is preserved as-is)
 
 ### v2.5.0
 - **Added**: `×` delete button on prompt chips; `±` moved to the leftmost side of chips (toggles positive/negative), turns red only on hover and only the one under the cursor, with a pointer cursor
