@@ -1,4 +1,4 @@
-# AI Drawing Prompt Supermarket v2.4.1
+# AI Drawing Prompt Supermarket v2.5.0
 
 [**中文简体**](../../README.md) | **English**
 
@@ -38,6 +38,11 @@ Hosted on GitHub Pages, use it online without downloading:
 SD tag-based models: **NoobAI-XL / Illustrious / Manhwa Style / Pony Diffusion**, etc. (Danbooru tag system).
 
 ## Changelog
+
+### v2.5.0
+- **Added**: `×` delete button on prompt chips; `±` moved to the leftmost side of chips (toggles positive/negative), turns red only on hover and only the one under the cursor, with a pointer cursor
+- **Added**: auto-save folder path shown to the right of the button (`folder name / dtag_fav.json`), aligned on the same line as the button text
+- **Added**: right-click reselect now starts from the last used folder (`startIn`)
 
 ### v2.4.1
 - **Fixed**: the search results list no longer disappears when clicking other buttons while the search box still has text (it only hides when the box is cleared or a result is selected)
