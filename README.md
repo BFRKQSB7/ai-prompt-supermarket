@@ -39,6 +39,9 @@ Stable Diffusion 系标签型模型：**NoobAI-XL / Illustrious / Manhwa Style /
 
 ## 变更日志
 
+### v2.8.0
+- **新增**：预设功能 —— 只存一套（正面 + 负面），点「存预设」保存当前正负提示词，「载预设」恢复并自动重建胶囊，「清预设」清除；与收藏同存 `dtag_fav.json`（新格式 `{fav:[...], preset:{pos,neg}}`，兼容旧数组格式导入）
+
 ### v2.7.0
 - **新增**：NoobAI 官方标签补齐 —— 新增「年代/日期」分类（old / early / mid / recent / newest 日期标签）；「质量词」补 `newest` `safe` `detailed face` `detailed background`
 - **新增**：常用分类扩充约 44 个标签（角色数量 / 发型 / 眼睛 / 表情 / 身材 / 服装 / 姿势 / 场景 / 画风 / 负面词），全量库新增 6 个词（chubby / bunny suit / hand on chin / fingers crossed / noise / grainy）

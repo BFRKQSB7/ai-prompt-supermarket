@@ -39,6 +39,9 @@ SD tag-based models: **NoobAI-XL / Illustrious / Manhwa Style / Pony Diffusion**
 
 ## Changelog
 
+### v2.8.0
+- **Added**: preset feature — saves one set (positive + negative). "Save preset" stores the current pos/neg prompts, "Load preset" restores and auto-rebuilds chips, "Clear preset" removes it; stored with favorites in the same `dtag_fav.json` (new format `{fav:[...], preset:{pos,neg}}`, backward-compatible import of the old array format)
+
 ### v2.7.0
 - **Added**: NoobAI official tags filled in — new "Era / Date" category (old / early / mid / recent / newest date tags); "Quality" category gains `newest`, `safe`, `detailed face`, `detailed background`
 - **Added**: ~44 common tags added across curated categories (character count / hairstyle / eyes / expression / body / clothing / pose / scene / style / negative); 6 new words added to the full library (chubby / bunny suit / hand on chin / fingers crossed / noise / grainy)
