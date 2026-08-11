@@ -1,4 +1,4 @@
-# AI Drawing Prompt Supermarket v2.4.0
+# AI Drawing Prompt Supermarket v2.4.1
 
 [**中文简体**](../../README.md) | **English**
 
@@ -38,6 +38,9 @@ Hosted on GitHub Pages, use it online without downloading:
 SD tag-based models: **NoobAI-XL / Illustrious / Manhwa Style / Pony Diffusion**, etc. (Danbooru tag system).
 
 ## Changelog
+
+### v2.4.1
+- **Fixed**: the search results list no longer disappears when clicking other buttons while the search box still has text (it only hides when the box is cleared or a result is selected)
 
 ### v2.4.0
 - **Added**: prompt backfill recognition — paste or type an existing prompt into the positive/negative boxes to auto-convert into chips (matched tags show Chinese; unmatched keep the original text with a `?` marker)
