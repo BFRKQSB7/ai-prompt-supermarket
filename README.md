@@ -1,4 +1,4 @@
-# AI 绘画提示词超市 v2.8.1
+# AI 绘画提示词超市 v2.8.2
 
 **中文简体** | [**English**](./docs/en/README.md)
 
@@ -39,13 +39,16 @@ Stable Diffusion 系标签型模型：**NoobAI-XL / Illustrious / Manhwa Style /
 
 ## 相关工具
 
-自然语言型写实模型（RealVis / Juggernaut）用 **写实提示词生成器**（槽位式自然语言拼装）：
+把中文需求自动转成英文提示词的 **AI 提示词工坊**（SDXL 标签流 / 自然语言流 / H3 视频提示词，内置直白词典 + 提示词库参考，可直接检索本超市的 16.7 万全量标签）：
 
-👉 [写实提示词生成器 — realistic-prompt-generator](https://github.com/BFRKQSB7/realistic-prompt-generator) · [在线版](https://bfrkqsb7.github.io/realistic-prompt-generator/)
+👉 [AI 提示词工坊 — sd-prompt-converter](https://github.com/BFRKQSB7/sd-prompt-converter) · [在线版](https://bfrkqsb7.github.io/sd-prompt-converter/)
 
-**什么时候该去**：你的模型是 RealVis / Juggernaut 这类自然语言型 → 去生成器；本超市服务 NoobAI / Manhwa 这类标签型。
+**什么时候该去**：想用中文一句话生成标签/提示词、或要 H3 视频提示词 → 去工坊；本超市是手动选词的标签库，适合精细挑词。
 
 ## 变更日志
+
+### v2.8.2
+- **新增**：补充 10 个常用负面词条到全量库（类型 0，含中文翻译）——easynegative / low_quality / worst_quality / normal_quality / text / error / missing_fingers / extra_fingers / ugly / bad-hands（转换器可据此给负面胶囊补中文）
 
 ### v2.8.1
 - **新增**：深浅色切换（工具栏 🌓 按钮，默认深色）

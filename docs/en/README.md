@@ -1,4 +1,4 @@
-# AI Drawing Prompt Supermarket v2.8.1
+# AI Drawing Prompt Supermarket v2.8.2
 
 [**中文简体**](../../README.md) | **English**
 
@@ -46,6 +46,9 @@ Realistic natural-language models (RealVis / Juggernaut)? Use the **Realistic Pr
 **When to go there**: your model is natural-language (RealVis / Juggernaut); this supermarket serves tag-based types (NoobAI / Manhwa).
 
 ## Changelog
+
+### v2.8.2
+- **Added**: 10 common negative tags to the full library (type 0, with Chinese) — easynegative / low_quality / worst_quality / normal_quality / text / error / missing_fingers / extra_fingers / ugly / bad-hands
 
 ### v2.8.1
 - **Added**: light/dark theme toggle (🌓 button in the toolbar, dark by default)
