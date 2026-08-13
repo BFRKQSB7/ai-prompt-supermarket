@@ -6,7 +6,7 @@
 
 ## 特性
 
-- **全量标签库**：内置 31.7 万+ Danbooru 中英对照标签（含角色 / 画师 / 版权 / 作品分类），每日更新数据源
+- **全量标签库**：内置 31.7 万+ Danbooru 中英对照标签（含角色 / 画师 / 版权 / 作品分类），随版本过滤重分类更新
 - **分类 + 二级分类**：发色 / 发型 / 眼睛 / 表情 / 身材 / 服装 / 姿势 / 场景 / 画风 / NSFW 等，大类可继续细分（如服装 → 上衣 / 裙装 / 内衣 / 鞋配饰）
 - **全局搜索**：中文、英文、下划线、空格都能搜，覆盖全库
 - **收藏**：★ 收藏常用词，支持「仅看收藏」筛选，跨会话持久化；**搜索结果可直接点 ☆ 收藏**
@@ -41,7 +41,7 @@ Stable Diffusion 系标签型模型：**NoobAI-XL / Illustrious / Manhwa Style /
 
 把中文需求自动转成英文提示词的 **AI 提示词工坊**（SDXL 标签流 / 自然语言流 / H3 视频提示词，内置直白词典 + 提示词库参考，可直接检索本超市的 16.7 万全量标签）：
 
-👉 [AI 提示词工坊 — sd-prompt-converter](https://github.com/BFRKQSB7/sd-prompt-converter) · [在线版](https://bfrkqsb7.github.io/sd-prompt-converter/)
+👉 [AI 提示词工坊 — AI-Prompt-Studio](https://github.com/BFRKQSB7/AI-Prompt-Studio) · [在线版](https://bfrkqsb7.github.io/AI-Prompt-Studio/)
 
 **什么时候该去**：想用中文一句话生成标签/提示词、或要 H3 视频提示词 → 去工坊；本超市是手动选词的标签库，适合精细挑词。
 
