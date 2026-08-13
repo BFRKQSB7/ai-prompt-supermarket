@@ -39,7 +39,7 @@ Stable Diffusion 系标签型模型：**NoobAI-XL / Illustrious / Manhwa Style /
 
 ## 相关工具
 
-把中文需求自动转成英文提示词的 **AI 提示词工坊**（SDXL 标签流 / 自然语言流 / H3 视频提示词，内置直白词典 + 提示词库参考，可直接检索本超市的 16.7 万全量标签）：
+把中文需求自动转成英文提示词的 **AI 提示词工坊**（SDXL 标签流 / 自然语言流 / H3 视频提示词，内置直白词典 + 提示词库参考，可直接检索本超市的 31.7 万全量标签）：
 
 👉 [AI 提示词工坊 — AI-Prompt-Studio](https://github.com/BFRKQSB7/AI-Prompt-Studio) · [在线版](https://bfrkqsb7.github.io/AI-Prompt-Studio/)
 
