@@ -1,4 +1,4 @@
-# AI 绘画提示词超市 v2.8.2
+# AI 绘画提示词超市 v2.9.0
 
 **中文简体** | [**English**](./docs/en/README.md)
 
@@ -46,6 +46,11 @@ Stable Diffusion 系标签型模型：**NoobAI-XL / Illustrious / Manhwa Style /
 **什么时候该去**：想用中文一句话生成标签/提示词、或要 H3 视频提示词 → 去工坊；本超市是手动选词的标签库，适合精细挑词。
 
 ## 变更日志
+
+### v2.9.0
+- **更新**：全量库过滤重分类至 317,423 条（剔除噪声 / 版权重分类，保留原始中文与分类）
+- **新增**：分类页底部居中「加载全部 N 条」按钮 —— 一键完整加载该分类全部标签（分块渲染，大分类不卡）
+- **修复**：原库个别条目括号损坏（chubby）随重建修复
 
 ### v2.8.2
 - **新增**：补充 10 个常用负面词条到全量库（类型 0，含中文翻译）——easynegative / low_quality / worst_quality / normal_quality / text / error / missing_fingers / extra_fingers / ugly / bad-hands（转换器可据此给负面胶囊补中文）
