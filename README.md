@@ -2,6 +2,9 @@
 
 **中文简体** | [**English**](./docs/en/README.md)
 
+![](https://img.shields.io/badge/version-v2.9.0-blue)
+![](https://img.shields.io/badge/license-MIT-green)
+
 本地离线的 AI 绘画提示词生成工具：**点选中文标签，自动生成英文提示词**。单文件、零依赖、双击即用。
 
 ## 特性

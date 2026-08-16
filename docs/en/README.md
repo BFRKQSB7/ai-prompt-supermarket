@@ -1,4 +1,4 @@
-# AI Drawing Prompt Supermarket v2.8.2
+# AI Drawing Prompt Supermarket v2.9.0
 
 [**中文简体**](../../README.md) | **English**
 
@@ -6,7 +6,7 @@ A local, offline AI drawing prompt generator: **click Chinese tags to auto-gener
 
 ## Features
 
-- **Full tag library**: 320K+ Danbooru Chinese–English tag pairs (characters / artists / copyrights / works), daily-updated data source
+- **Full tag library**: 317K+ Danbooru Chinese–English tag pairs (characters / artists / copyrights / works), updated with each tagged release
 - **Categories + subcategories**: hair color / hairstyle / eyes / expression / body / clothing / pose / scene / style / NSFW, with deep subcategories (e.g. clothing → tops / dresses / underwear / shoes & accessories)
 - **Global search**: search by Chinese, English, underscores, or spaces across the full library
 - **Favorites**: ★ favorite common tags, filter by "favorites only", persisted across sessions; **favorite directly from search results with ☆**
